@@ -13,5 +13,6 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
+          audience: sts.amazonaws.com
           aws-region: us-east-1
           role-to-assume: arn:aws:iam::590183761178:role/afm_fw_publication_ui_codebuild_role
