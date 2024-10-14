@@ -17,4 +17,4 @@ jobs:
         with:
           #audience: sts.amazonaws.com
           aws-region: us-east-1
-          role-to-assume: arn:aws:iam::590183761178:role/afm_fw_publication_ui_codebuild_role_test
+          role-to-assume: arn:aws:iam::590183761178:role/CodebuildGithubIAM
